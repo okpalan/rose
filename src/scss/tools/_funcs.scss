@@ -1,0 +1,21 @@
+// create a function to convert px to rem
+@function rem($px) {
+    @return $px / 16px * 1rem;
+}
+
+// a function to create variables for media queries
+@function mq($breakpoint) {
+    @return "(min-width: #{$breakpoint})";
+}
+
+// create a function to create a random border radius
+// consisting of 4 values / 4 corners
+@function random-border-radius() {
+    $radius: ();
+
+    @for $i from 1 through 4 {
+        $radius: append($radius, random(0, 100) + "%");
+    }
+
+    @return $radius;
+}

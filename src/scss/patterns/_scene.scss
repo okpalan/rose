@@ -1,0 +1,8 @@
+// create a scene class with perserve-3d and perspective
+
+$scene-perspective: 800px;
+.scene {
+    perspective: $scene-perspective;
+    perspective-origin: 50% 50%;
+    transform-style: preserve-3d;
+}

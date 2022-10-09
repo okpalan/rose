@@ -1,0 +1,24 @@
+{
+  "name": "rose",
+  "version": "0.0.1",
+  "description": "A Rose made in CSS",
+  "main": "src/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "npx gulp server",
+    "build":"npx gulp build:pug"
+  },
+  "keywords": [
+    "Rose"
+  ],
+  "author": "Nnamdi Michael Okpala",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.27.10",
+    "gulp": "^4.0.2",
+    "gulp-pug": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.55.0"
+  },
+  "dependencies": {}
+}

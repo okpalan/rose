@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.scene {
+  perspective: 800px;
+  perspective-origin: 50% 50%;
+  transform-style: preserve-3d;
+}
+
+.cyclinder {
+  transform-style: preserve-3d;
+}
+.cyclinder__face > .face {
+  position: absolute;
+  margin-top: -10px;
+  background: limegreen;
+  border: solid darkgreen;
+  border-width: 5px 0;
+  height: 120px;
+  width: 24px;
+  opacity: 1;
+  transition: all 420ms;
+}
+.cyclinder__face > .face--1 {
+  transform: rotateY(15deg) translateZ(85px);
+}
+.cyclinder__face > .face--2 {
+  transform: rotateY(30deg) translateZ(85px);
+}
+.cyclinder__face > .face--3 {
+  transform: rotateY(45deg) translateZ(85px);
+}
+.cyclinder__face > .face--4 {
+  transform: rotateY(60deg) translateZ(85px);
+}
+.cyclinder__face > .face--5 {
+  transform: rotateY(75deg) translateZ(85px);
+}
+.cyclinder__face > .face--6 {
+  transform: rotateY(90deg) translateZ(85px);
+}
+.cyclinder__face > .face--7 {
+  transform: rotateY(105deg) translateZ(85px);
+}
+.cyclinder__face > .face--8 {
+  transform: rotateY(120deg) translateZ(85px);
+}
+.cyclinder__face > .face--9 {
+  transform: rotateY(135deg) translateZ(85px);
+}
+.cyclinder__face > .face--10 {
+  transform: rotateY(150deg) translateZ(85px);
+}
+.cyclinder__face > .face--11 {
+  transform: rotateY(165deg) translateZ(85px);
+}
+.cyclinder__face > .face--12 {
+  transform: rotateY(180deg) translateZ(85px);
+}
+.cyclinder__face > .face--13 {
+  transform: rotateY(195deg) translateZ(85px);
+}
+.cyclinder__face > .face--14 {
+  transform: rotateY(210deg) translateZ(85px);
+}
+.cyclinder__face > .face--15 {
+  transform: rotateY(225deg) translateZ(85px);
+}
+.cyclinder__face > .face--16 {
+  transform: rotateY(240deg) translateZ(85px);
+}
+.cyclinder__face > .face--17 {
+  transform: rotateY(255deg) translateZ(85px);
+}
+.cyclinder__face > .face--18 {
+  transform: rotateY(270deg) translateZ(85px);
+}
+.cyclinder__face > .face--19 {
+  transform: rotateY(285deg) translateZ(85px);
+}
+.cyclinder__face > .face--20 {
+  transform: rotateY(300deg) translateZ(85px);
+}
+.cyclinder__face > .face--21 {
+  transform: rotateY(315deg) translateZ(85px);
+}
+.cyclinder__face > .face--22 {
+  transform: rotateY(330deg) translateZ(85px);
+}
+.cyclinder__face > .face--23 {
+  transform: rotateY(345deg) translateZ(85px);
+}
+.cyclinder__face > .face--24 {
+  transform: rotateY(360deg) translateZ(85px);
+}
+.cyclinder__face > .face--25 {
+  transform: rotateY(375deg) translateZ(85px);
+}

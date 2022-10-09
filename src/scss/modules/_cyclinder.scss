@@ -1,0 +1,29 @@
+.cyclinder {
+    transform-style: preserve-3d;
+
+    &__face {
+
+        >.face {
+            position: absolute;
+
+            margin-top: -10px;
+            background: limegreen;
+            border: solid darkgreen;
+            border-width: 5px 0;
+            height: 120px;
+            width: 24px;
+            opacity: 1;
+            transition: all 420ms;
+            $face-count: 0;
+
+            @while $face-count <= 24 {
+                $face-count: $face-count + 1;
+
+                &--#{$face-count} {
+                    transform: rotateY($face-count * 15deg) translateZ(85px);
+                }
+            }
+        }
+
+    }
+}
