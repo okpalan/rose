@@ -8,6 +8,7 @@ html,
 body {
   height: 100%;
   width: 100%;
+  position: relative;
   margin: auto;
   top: 0;
   left: 0;
@@ -23,20 +24,16 @@ body {
 
 .cyclinder {
   transform-style: preserve-3d;
+  transform: rotateX(-20deg) rotateY(0deg) rotateZ(0deg);
 }
 .cyclinder__face > .face {
   position: absolute;
-  margin-top: -10px;
   background: limegreen;
   border: solid darkgreen;
   border-width: 5px 0;
   height: 120px;
   width: 24px;
   opacity: 1;
-  transition: all 420ms;
-}
-.cyclinder__face > .face--1 {
-  transform: rotateY(15deg) translateZ(85px);
 }
 .cyclinder__face > .face--2 {
   transform: rotateY(30deg) translateZ(85px);

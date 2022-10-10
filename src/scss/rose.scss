@@ -1,13 +1,11 @@
-@import "./tools/funcs.scss";
-@import "./tools/mixins.scss";
-
+@import "./tools/_funcs.scss";
+@import "./tools/_mixins.scss";
 
 // Base
-@import "./base.scss";
-
+@import "./_base.scss";
 
 // patterns 
-@import "./patterns/scene.scss";
+@import "./patterns/_scene.scss";
 
 //modules
-@import "./modules/cyclinder.scss";
+@import "./modules/_cyclinder.scss";

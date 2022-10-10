@@ -2,6 +2,8 @@ const gulp = require('gulp');
 const sass = require('gulp-sass')(require('sass'));
 const browserSync = require('browser-sync').create();
 const pug = require('gulp-pug');
+const path = require('path');
+
 
 function style() {
     return gulp.src('./src/scss/**/*.scss')
@@ -29,8 +31,8 @@ function buildPug() {
         .pipe(pug({
             pretty: true
         }))
-        .pipe(gulp.dest('./dist'))
+        .pipe(gulp.dest(path.resolve(process.cwd(), '/dist')));
 }
 
 gulp.task('build:pug', buildPug);
-gulp.task('default', gulp.series(style, watch, buildPug));
+gulp.task('default', gulp.series(style, watch));

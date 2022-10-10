@@ -5,8 +5,8 @@
   "main": "src/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "npx gulp server",
-    "build":"npx gulp build:pug"
+    "serve": "npx gulp",
+    "build": "npx gulp build:pug"
   },
   "keywords": [
     "Rose"

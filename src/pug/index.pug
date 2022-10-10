@@ -15,7 +15,9 @@ html(lang="en")
           .cyclinder__face 
             - var n = 0;
               while n <= 24
-                .face--! #{n}
-                  - n++;
+              div(class="face--" + n)
+                - n++;
+
+
 
 
